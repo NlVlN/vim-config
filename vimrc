@@ -48,7 +48,7 @@ set hlsearch
 "set mouse=a		" Enable mouse usage (all modes)
 set number
 set nocompatible
-autocmd FileType yaml setlocal ts=4 sts=4 sw=4 expandtab	" Use 4 spaces for YAML files
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab	" Use 2 spaces for YAML files
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
